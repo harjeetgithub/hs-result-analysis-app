@@ -1,0 +1,26 @@
+credentials:
+  usernames:
+    admin:
+      email: harjeet.singh@chitkara.edu.in
+      name: Harjeet Singh
+      password: "1234"   # bcrypt hash
+      role: admin
+    faculty:
+      email: faculty@college.edu
+      name: Faculty User
+      password: "1234"   # bcrypt hash
+      role: faculty
+    student:
+      email: student@college.edu
+      name: Student User
+      password: "1234"   # bcrypt hash
+      role: student
+
+cookie:
+  expiry_days: 1
+  key: streamlit_auth_key
+  name: streamlit_auth_cookie
+
+preauthorized:
+  emails:
+    - harjeet.singh@chitkara.edu.in
